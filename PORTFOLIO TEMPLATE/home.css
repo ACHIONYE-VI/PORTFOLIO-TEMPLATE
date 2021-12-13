@@ -1,0 +1,167 @@
+*{
+    margin: 0px; 
+    padding: 0px;
+}
+
+header{
+    height: 700px;
+    max-height: 100%;
+    max-width: 100%;
+    background-image: url(./IMAGES/New.jpg)
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px;
+}
+
+nav ul li{
+    list-style: none;
+    margin-left: 30px;
+    font-weight: lighter;
+    font-size: large;
+    padding: 10px 20px;
+    color: white;
+}
+
+nav ul li:hover{
+    border-bottom: 2px solid #ffbc00 ;
+    cursor: none;
+}
+.botttom-line {
+    height: 2px;
+    width: 3rem;
+    background: #ffbc00;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+
+.header__content{
+    justify-content: center;
+    padding-top: 200px;
+    color: white;
+}
+
+.txt_one{
+    display: flex;
+    justify-content: center;
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+.txt_two{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.section_a{
+    padding-top: 100px;
+}
+
+.write_up{
+    border: 2px solid black;
+    padding: 30px;
+    margin: 20px;
+    
+}
+
+.a__one{
+    display: flex;
+    justify-content: center;
+}
+
+.a__two{
+    display: flex;
+    justify-content: center;
+}
+
+.a_two{
+    display: flex;
+    margin: 30px 40px;
+}
+
+.b{
+    padding-top: 100px;
+    border-top: 2px solid black;
+    margin: 150px 30px;
+}
+
+.b__one{
+    display: flex;
+    justify-content: center;
+}
+
+.b__two{
+    display: flex;
+    justify-content: center;
+}
+
+.img__one{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+
+
+.img__{
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+}
+
+
+.c{
+    margin-top: 250px;
+    padding: 30px;
+    border-top: 2px solid black;
+}
+
+.c_one{
+    display: flex;
+    justify-content: center;
+}
+
+.c_two{
+    display: flex;
+    justify-content: center;
+}
+
+.contact_info{
+    display: flex;
+    justify-content: center;
+    margin: 30px 60px;
+}
+
+.contact_icon{
+    margin: 50px 150px 0 0;
+}
+
+#main-footer {
+    background: #333;
+    color: #fff;
+    height: 5rem; 
+}
+#main-footer .footer-content {
+    display: flex;
+    justify-content: center;
+    height: 5rem;
+    align-items: center; }
+#main-footer .footer-content .social .fab {
+    margin-right: 1rem;
+    border: 2px #fff solid;
+    border-radius: 60%;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 20px; 
+}
+#main-footer .footer-content .social .fab:hover {
+    background: #ffbc00; }
